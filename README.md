@@ -20,6 +20,7 @@ sistemas de gobierno y entidades públicas.
 3. YouTube Data API: Información enriquecida sobre categorías de video, métricas de interacción y tendencias de contenido.
 
 **Scope**
+
 El alcance de este proyecto es la identificación de correlaciones entre el consumo de medios digitales y el bienestar psicológico. Se busca entender cómo variables externas (tiempo de pantalla, tipo de contenido) afectan variables internas (ansiedad, depresión, soledad, concentración y apoyo social).
 
 **Tamaños**
