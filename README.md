@@ -4,7 +4,7 @@
 
 ## Objetivo 
 Este proyecto desarrolla la infraestructura de datos para una plataforma de monitoreo preventivo, transformando métricas de comportamiento diario en indicadores accionables para la intervención temprana en salud mental. Queremos proponer una alternativa amable lejos de retención, métricas y beneficios económicos y solo analizando el comportamiento digital respecto a la salud mental podremos enfocarnos en la prevención y el cuidado de la salud mental en la ciudadanía. 
-Entregamos un **análisis de correlacion entre comportamiento digital y salud mental** y **que dimensiones del comportamiento digital podemos relacionar con la salud mental** así como **dimensiones de enfoque para el cuidado y la intervención de nuestra app para con la ciudadanía.**
+Entregamos un **análisis de correlacion entre comportamiento digital y salud mental** y **qué dimensiones del comportamiento digital podemos relacionar con la salud mental** así como **dimensiones de enfoque para el cuidado y la intervención de nuestra app para con la ciudadanía.**
 
 
 ## Contexto de negocio 
