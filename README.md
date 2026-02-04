@@ -129,7 +129,7 @@ Si bien Estados Unidos presenta volúmenes de consumo y ataques de pánico más 
 
 ## Limitaciones y próximos pasos 
 - No podemos inferir de manera 100% objetiva porque las fuentes de datos están obtenidas en el mismo año pero no a los mismos usuarios y una cuenta con muchos más registros que otra. 
-- Podríamos hacer un análisis más amplio si tuvieramos datos similares de otros años, lo qeue daría uan prespectiva de evolución. 
+- Podríamos hacer un análisis más amplio si tuvieramos datos similares de otros años, lo que daría una perspectiva de evolución. 
 - Debido al tiempo limitado del estudio, no se ha podido obtener toda la información máxima por la cantidad enorme de variables. Por ello, el material ofrece mucho más contexto de métricas específicas que sería útil analizar para próximos estudios. 
 
 ## Cómo replicar el proyecto
