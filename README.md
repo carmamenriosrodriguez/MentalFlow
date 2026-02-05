@@ -4,7 +4,7 @@
 
 ## Objetivo 
 Este proyecto desarrolla la infraestructura de datos para una plataforma de monitoreo preventivo, transformando métricas de comportamiento diario en indicadores accionables para la intervención temprana en salud mental. Queremos proponer una alternativa amable lejos de retención, métricas y beneficios económicos y solo analizando el comportamiento digital respecto a la salud mental podremos enfocarnos en la prevención y el cuidado de la salud mental en la ciudadanía. 
-Entregamos un **análisis de correlacion entre comportamiento digital y salud mental** y **que dimensiones del comportamiento digital podemos relacionar con la salud mental** así como **dimensiones de enfoque para el cuidado y la intervención de nuestra app para con la ciudadanía.**
+Entregamos un **análisis de correlacion entre comportamiento digital y salud mental** y **qué dimensiones del comportamiento digital podemos relacionar con la salud mental** así como **dimensiones de enfoque para el cuidado y la intervención de nuestra app para con la ciudadanía.**
 
 
 ## Contexto de negocio 
@@ -20,6 +20,7 @@ sistemas de gobierno y entidades públicas.
 3. YouTube Data API: Información enriquecida sobre categorías de video, métricas de interacción y tendencias de contenido.
 
 **Scope**
+
 El alcance de este proyecto es la identificación de correlaciones entre el consumo de medios digitales y el bienestar psicológico. Se busca entender cómo variables externas (tiempo de pantalla, tipo de contenido) afectan variables internas (ansiedad, depresión, soledad, concentración y apoyo social).
 
 **Tamaños**
@@ -80,10 +81,10 @@ El proceso de limpieza reveló varios desafíos críticos que fueron abordados m
 - Respecto al consumo de publicidad mediante redes sociales, ambos países tienen un ratio ads-vistos, ads-clickados similar. Sin embargo, al ser Inglaterra el país de uso de rrss de manera más pasiva podemos inferir que los anuncios pueden afectar más a este país. 
 
 2. **En nuestro análisis demográfico sobre salud mental entre países por rango de edad y género:**
-- En GB los niveles de soporte social y sentirse comprendidos son moderados (5-6), pero sí que existe una tendencia a sentirse solos (sobre el 5). Además en los grupos más jóvenes se observa una alta dificultad de concentración respecto a otros rangos de edad, pero son los que menos pinsan en autolesión o suicidio. La tendencia extrema más desoladora es que el grupo de mayor edad (55-65) alcanzan casi un 9 en sentimiento de soledad. 
+- En GB los niveles de soporte social y sentirse comprendidos son moderados (5-6), pero sí que existe una tendencia a sentirse solos (sobre el 5). Además en los grupos más jóvenes se observa una alta dificultad de concentración respecto a otros rangos de edad, pero son los que menos piensan en autolesión o suicidio. La tendencia extrema más desoladora es que el grupo de mayor edad (55-65) alcanzan casi un 9 en sentimiento de soledad. 
 - EN EEUU se reportan niveles ligeramente más altos de cambios de humor, irritabilidad y pensamientos obsesivos compulsivos. Además, los adultos jóvenes (18-24) aunque muestran un buen conteo de media sobre apoyo social y amistades, a menudo se sienten insuficientes (rondando los 7 puntos de media). 
-- Respecto a géneros, las mujeres suelen reportar niveles más altos de dificultad para concentrarse y cambios de humor, peor a penas se sienten comprendidas o apoyadas. Los hombres, por otra parte, presentan niveles de soledad muy elevados (llegando al 8). En cuanto a personas No Binarias, tienden a mostrar pensamientos obsesivos, sentirse insuficientes y solos. 
-- En general, los adultos entre 35 y 44 años son el grupo que presenta mayor estabilidad entre las diferentes métricas aunque con una carga de sentirse insufiientes (6). 
+- Respecto a géneros, las mujeres suelen reportar niveles más altos de dificultad para concentrarse y cambios de humor, pero a penas se sienten comprendidas o apoyadas. Los hombres, por otra parte, presentan niveles de soledad muy elevados (llegando al 8). En cuanto a personas No Binarias, tienden a mostrar pensamientos obsesivos, sentirse insuficientes y solos. 
+- En general, los adultos entre 35 y 44 años son el grupo que presenta mayor estabilidad entre las diferentes métricas aunque con una carga de sentirse insuficientes (6). 
 
 3. **¿Existe correlación entre comportamiento digital y salud mental?**
 - Los datos muestran una curva clara: a mayor tiempo de uso, mayores son los indicadores de malestar, especialmente entre los jóvenes. 
@@ -107,11 +108,11 @@ El proceso de limpieza reveló varios desafíos críticos que fueron abordados m
     - Si observamos el caso de los adultos mayores (55-65) existe la baja intensidad de interacciones y de seguidores/seguidos, pero una gran satisfacción en apoyo social. Esto parece indicar que realmente el comportamineto digital que nos vincula al resto no nos vincula en la vida real y que la satisfacción en apoyo social no parece tener correlación a mayor interacción sino, más bien, todo lo contrario. 
 
     3.4. **¿Dónde se habla más (país) de salud mental en redes sociales?**
-    - Estados Unidos lidera en la intensidad del interés y el consumo real. La 'ansiedad' como tema genera mas de 85 millones de vistas en el top 50 de los vídeos, mientras que en GB esa misma categoria tiene unas 16 millones de visitas. Además el engagement (comentarios, likes, compartidos) es significativamente más alto en vídeos cuyo títul incluyan las palabras 'ansiedad' o 'depresión'. Después de ello, muy cerca de los 80 millones de visitas, los vídeos que tratan sobre sentirse comprendidos. 
-    - En GB el tema con más visitas y engagement es a soledad (lonlines) con más de 96 millones de visitas. 
+    - Estados Unidos lidera en la intensidad del interés y el consumo real. La 'ansiedad' como tema genera mas de 85 millones de vistas en el top 50 de los vídeos, mientras que en GB esa misma categoria tiene unas 16 millones de visitas. Además el engagement (comentarios, likes, compartidos) es significativamente más alto en vídeos cuyo título incluyan las palabras 'ansiedad' o 'depresión'. Después de ello, muy cerca de los 80 millones de visitas, los vídeos que tratan sobre sentirse comprendidos. 
+    - En GB el tema con más visitas y engagement es la soledad (loneliness) con más de 96 millones de visitas. 
     - Es interesante notar que la adicción a las redes sociales tiene la duración media de video más alta en ambos países (entre 24 y 25 minutos). Esto indica que, independientemente del país, cuando se habla de este tema, se prefiere un contenido mucho más profundo y extenso que los clips rápidos de otros trastornos.
 
-        3.4.1. **¿Los usuarios que consumen vídeos de youtube con una duración media/corta muestran una mayor tendenca a la dificultad de concentrarse?**
+        3.4.1. **¿Los usuarios que consumen vídeos de youtube con una duración media/corta muestran una mayor tendencia a la dificultad de concentrarse?**
         - La nota media de los usuarios en USA que sienten dificultad para concentrarse es de un 5,03. Cuando deciden buscar vídeos en Youtube con la temática "loss of attention" la duración media es de 4 minutos, lo que indica que, precisamente, buscan esos vídeos cortos y esos estímulos incluso cuando buscan sobre ello. 
         - En Inglaterra la nota no llega al 5 (4,8) y los vídeos que buscan son de una misma duración media (sobre los 4 minutos).
 
@@ -128,7 +129,7 @@ Si bien Estados Unidos presenta volúmenes de consumo y ataques de pánico más 
 
 ## Limitaciones y próximos pasos 
 - No podemos inferir de manera 100% objetiva porque las fuentes de datos están obtenidas en el mismo año pero no a los mismos usuarios y una cuenta con muchos más registros que otra. 
-- Podríamos hacer un análisis más amplio si tuvieramos datos similares de otros años, lo qeue daría uan prespectiva de evolución. 
+- Podríamos hacer un análisis más amplio si tuvieramos datos similares de otros años, lo que daría una perspectiva de evolución. 
 - Debido al tiempo limitado del estudio, no se ha podido obtener toda la información máxima por la cantidad enorme de variables. Por ello, el material ofrece mucho más contexto de métricas específicas que sería útil analizar para próximos estudios. 
 
 ## Cómo replicar el proyecto
